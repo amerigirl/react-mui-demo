@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import MuiTypography from "./Components/MuiTypography";
 
 function App() {
   return (
-    <div className="App">
- Hello
+    <div>
+      <MuiTypography />
     </div>
   );
 }
